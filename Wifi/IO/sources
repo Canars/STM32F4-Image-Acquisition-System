@@ -1,0 +1,33 @@
+TARGETNAME=UartWifiIO
+TARGETTYPE=LIBRARY
+RELEASETYPE=PLATFORM
+
+TARGETLIBS= \
+	$(_TARGETPLATROOT)\lib\$(_CPUDEPPATH)\UartWifiIO.lib \
+	$(_TARGETPLATROOT)\lib\$(_CPUDEPPATH)\UartWifiIF.lib \
+	$(_TARGETPLATROOT)\lib\$(_CPUDEPPATH)\UartWifiWLAN.lib \
+	$(_TARGETPLATROOT)\lib\$(_CPUDEPPATH)\UartWifiAPI.lib \
+	$(_TARGETPLATROOT)\lib\$(_CPUDEPPATH)\UartWifiInit.lib \
+	$(_TARGETPLATROOT)\lib\$(_CPUDEPPATH)\UartWifiLib.lib \
+	$(_TARGETPLATROOT)\lib\$(_CPUDEPPATH)\UartWifiNet.lib \
+	$(_TARGETPLATROOT)\lib\$(_CPUDEPPATH)\UartWifiSystem.lib \
+	
+EXT_INCLUDES= \
+	..\..\..\Bsp\Inc; \
+	..\..\..\Bsp\Src; \
+	..\..\..\Include; \
+	..\..\..\Init; \
+	..\..\..\Lib; \
+	..\..\..\Misc; \
+	..\..\..\Net\LNet; \
+	..\..\..\System; \
+	..\..\..\Drivers\Wifi\Inc; \
+	..\..\..\Drivers\Wifi\IO; \
+	..\..\..\Drivers\Wifi\IF; \
+	..\..\..\Drivers\Wifi\API; \
+	..\..\..\Drivers\Wifi\WLAN; \
+
+SOURCES= \
+	Wifi_Hw.c \
+
+

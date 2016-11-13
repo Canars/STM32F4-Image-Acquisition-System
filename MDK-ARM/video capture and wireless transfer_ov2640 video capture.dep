@@ -1,0 +1,1826 @@
+Dependencies for Project 'video capture and wireless transfer', Target 'ov2640 video capture': (DO NOT MODIFY !)
+F (..\User\src\main.c)(0x53930268)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\main.o --omf_browse ..\output\main.crf --depend ..\output\main.d)
+I (..\Wifi\Inc\Includes.h)(0x5344F613)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+I (..\Wifi\Inc\BaseTypes.h)(0x50AA38B3)
+I (..\Wifi\Inc\BaseDefs.h)(0x5344D231)
+I (..\GSPI\GSPI.h)(0x5346785B)
+I (..\User\inc\flash.h)(0x53464665)
+I (..\User\inc\usart.h)(0x536B38BD)
+I (..\Wifi\Inc\WifiCfg.h)(0x538FC7D8)
+I (..\User\inc\delay.h)(0x52C3C386)
+I (..\Wifi\Inc\WifiDefs.h)(0x50AA3846)
+I (..\Wifi\WLAN\Ndis.h)(0x534CFED7)
+I (..\Wifi\WLAN\Ndisdef.h)(0x50AA386B)
+I (..\Wifi\WLAN\MrvConstant.h)(0x50AA3865)
+I (..\Wifi\WLAN\MrvStruct.h)(0x50AA3865)
+I (..\Wifi\WLAN\MrvHostCmd.h)(0x50AA415A)
+I (..\Wifi\WLAN\WlanAdapter.h)(0x5344F5E8)
+I (..\Wifi\IO\Wifi_Hw.h)(0x53451E2B)
+I (..\Wifi\IF\Wifi_If.h)(0x5344F6D5)
+I (..\Wifi\IF\Wifi_If_Gspi.h)(0x50AA3841)
+I (..\Wifi\WLAN\WlanCmd.h)(0x5344F661)
+I (..\Wifi\WLAN\WlanInit.h)(0x5344F67A)
+I (..\Wifi\WLAN\WlanPkt.h)(0x5344F698)
+I (..\Wifi\WLAN\WlanMisc.h)(0x5344F68E)
+I (..\Wifi\Api\WifiApiExport.h)(0x5344F6A4)
+I (..\Wifi\Api\WIFICommand.h)(0x5344F6BC)
+I (..\User\inc\rm68042.h)(0x52C55A0A)
+I (..\User\inc\dcmi_ov2640.h)(0x53719F07)
+I (..\uip-1-0\apps\udpclient\uIP_App.h)(0x536F3B54)
+I (..\uip-1-0\apps\udpclient\udp_client.h)(0x536B0730)
+I (..\uip-1-0\uip\uip.h)(0x538D7D5F)
+I (..\uip-1-0\uip\uipopt.h)(0x53719EE6)
+I (..\uip-1-0\unix\uip-conf.h)(0x536F67E3)
+I (D:\Program Files\Keil\ARM\ARMCC\include\inttypes.h)(0x51C7B744)
+I (..\uip-1-0\uip\uip_arp.h)(0x51528438)
+I (..\uip-1-0\unix\tapdev.h)(0x534CC4E5)
+F (..\User\src\delay.c)(0x5371A874)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\delay.o --omf_browse ..\output\delay.crf --depend ..\output\delay.d)
+I (..\User\inc\delay.h)(0x52C3C386)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+F (..\User\src\rm68042.c)(0x5338ED31)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\rm68042.o --omf_browse ..\output\rm68042.crf --depend ..\output\rm68042.d)
+I (..\User\inc\rm68042.h)(0x52C55A0A)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+I (..\User\inc\font.h)(0x5142E5D0)
+I (..\User\inc\delay.h)(0x52C3C386)
+F (..\User\src\sccb.c)(0x530749AA)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\sccb.o --omf_browse ..\output\sccb.crf --depend ..\output\sccb.d)
+I (..\User\inc\sccb.h)(0x5338F83C)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+I (..\User\inc\delay.h)(0x52C3C386)
+F (..\User\src\stm32f4xx_it.c)(0x536F6233)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\stm32f4xx_it.o --omf_browse ..\output\stm32f4xx_it.crf --depend ..\output\stm32f4xx_it.d)
+I (..\User\inc\stm32f4xx_it.h)(0x52C38618)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+I (..\User\inc\dcmi_ov2640.h)(0x53719F07)
+I (..\Wifi\IF\Wifi_If.h)(0x5344F6D5)
+I (..\Wifi\IF\Wifi_If_Gspi.h)(0x50AA3841)
+I (..\Wifi\Inc\Includes.h)(0x5344F613)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
+I (..\Wifi\Inc\BaseTypes.h)(0x50AA38B3)
+I (..\Wifi\Inc\BaseDefs.h)(0x5344D231)
+I (..\GSPI\GSPI.h)(0x5346785B)
+I (..\User\inc\flash.h)(0x53464665)
+I (..\User\inc\usart.h)(0x536B38BD)
+I (..\Wifi\Inc\WifiCfg.h)(0x538FC7D8)
+I (..\User\inc\delay.h)(0x52C3C386)
+I (..\Wifi\Inc\WifiDefs.h)(0x50AA3846)
+I (..\Wifi\WLAN\Ndis.h)(0x534CFED7)
+I (..\Wifi\WLAN\Ndisdef.h)(0x50AA386B)
+I (..\Wifi\WLAN\MrvConstant.h)(0x50AA3865)
+I (..\Wifi\WLAN\MrvStruct.h)(0x50AA3865)
+I (..\Wifi\WLAN\MrvHostCmd.h)(0x50AA415A)
+I (..\Wifi\WLAN\WlanAdapter.h)(0x5344F5E8)
+I (..\Wifi\IO\Wifi_Hw.h)(0x53451E2B)
+I (..\Wifi\WLAN\WlanCmd.h)(0x5344F661)
+I (..\Wifi\WLAN\WlanInit.h)(0x5344F67A)
+I (..\Wifi\WLAN\WlanPkt.h)(0x5344F698)
+I (..\Wifi\WLAN\WlanMisc.h)(0x5344F68E)
+I (..\Wifi\Api\WifiApiExport.h)(0x5344F6A4)
+I (..\Wifi\Api\WIFICommand.h)(0x5344F6BC)
+F (..\User\src\dcmi_ov2640.c)(0x537B0F15)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\dcmi_ov2640.o --omf_browse ..\output\dcmi_ov2640.crf --depend ..\output\dcmi_ov2640.d)
+I (..\User\inc\dcmi_ov2640.h)(0x53719F07)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+I (..\User\inc\delay.h)(0x52C3C386)
+I (..\User\inc\rm68042.h)(0x52C55A0A)
+F (..\User\src\usart.c)(0x536B38AB)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\usart.o --omf_browse ..\output\usart.crf --depend ..\output\usart.d)
+I (..\User\inc\usart.h)(0x536B38BD)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
+I (..\Wifi\Inc\WifiCfg.h)(0x538FC7D8)
+I (..\User\inc\dcmi_ov2640.h)(0x53719F07)
+F (..\User\src\flash.c)(0x53930290)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\flash.o --omf_browse ..\output\flash.crf --depend ..\output\flash.d)
+I (..\User\inc\flash.h)(0x53464665)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+I (..\Wifi\Inc\BaseTypes.h)(0x50AA38B3)
+I (..\Wifi\Inc\BaseDefs.h)(0x5344D231)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+F (..\GSPI\GSPI.c)(0x5346782F)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\gspi.o --omf_browse ..\output\gspi.crf --depend ..\output\gspi.d)
+I (..\GSPI\GSPI.h)(0x5346785B)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+F (..\User\src\timerx.c)(0x537C6504)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\timerx.o --omf_browse ..\output\timerx.crf --depend ..\output\timerx.d)
+I (..\User\inc\timerx.h)(0x534CBD76)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+F (..\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f40_41xxx.s)(0x53719F07)(--cpu Cortex-M4.fp -g --apcs=interwork -I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"--list ..\listing\startup_stm32f40_41xxx.lst --xref -o ..\output\startup_stm32f40_41xxx.o --depend ..\output\startup_stm32f40_41xxx.d)
+F (..\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c)(0x527D50C0)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\system_stm32f4xx.o --omf_browse ..\output\system_stm32f4xx.crf --depend ..\output\system_stm32f4xx.d)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+F (..\Libraries\STM32F4xx_StdPeriph_Driver\src\misc.c)(0x527D5151)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\misc.o --omf_browse ..\output\misc.crf --depend ..\output\misc.d)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+F (..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dcmi.c)(0x527D5151)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\stm32f4xx_dcmi.o --omf_browse ..\output\stm32f4xx_dcmi.crf --depend ..\output\stm32f4xx_dcmi.d)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+F (..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c)(0x527D5151)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\stm32f4xx_dma.o --omf_browse ..\output\stm32f4xx_dma.crf --depend ..\output\stm32f4xx_dma.d)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+F (..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c)(0x527D5151)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\stm32f4xx_fsmc.o --omf_browse ..\output\stm32f4xx_fsmc.crf --depend ..\output\stm32f4xx_fsmc.d)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+F (..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c)(0x527D5151)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\stm32f4xx_gpio.o --omf_browse ..\output\stm32f4xx_gpio.crf --depend ..\output\stm32f4xx_gpio.d)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+F (..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c)(0x527D5151)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\stm32f4xx_i2c.o --omf_browse ..\output\stm32f4xx_i2c.crf --depend ..\output\stm32f4xx_i2c.d)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+F (..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c)(0x527D5152)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\stm32f4xx_rcc.o --omf_browse ..\output\stm32f4xx_rcc.crf --depend ..\output\stm32f4xx_rcc.d)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+F (..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c)(0x527D5152)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\stm32f4xx_usart.o --omf_browse ..\output\stm32f4xx_usart.crf --depend ..\output\stm32f4xx_usart.d)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+F (..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash.c)(0x527D5151)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\stm32f4xx_flash.o --omf_browse ..\output\stm32f4xx_flash.crf --depend ..\output\stm32f4xx_flash.d)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+F (..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c)(0x527D5152)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\stm32f4xx_spi.o --omf_browse ..\output\stm32f4xx_spi.crf --depend ..\output\stm32f4xx_spi.d)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+F (..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_exti.c)(0x527D5151)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\stm32f4xx_exti.o --omf_browse ..\output\stm32f4xx_exti.crf --depend ..\output\stm32f4xx_exti.d)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+F (..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c)(0x527D5152)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\stm32f4xx_tim.o --omf_browse ..\output\stm32f4xx_tim.crf --depend ..\output\stm32f4xx_tim.d)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+F (..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_syscfg.c)(0x527D5152)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\stm32f4xx_syscfg.o --omf_browse ..\output\stm32f4xx_syscfg.crf --depend ..\output\stm32f4xx_syscfg.d)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+F (..\Wifi\WLAN\WlanAdapter.c)(0x5344F191)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\wlanadapter.o --omf_browse ..\output\wlanadapter.crf --depend ..\output\wlanadapter.d)
+I (..\Wifi\WLAN\WlanAdapter.h)(0x5344F5E8)
+I (..\Wifi\Inc\Includes.h)(0x5344F613)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+I (..\Wifi\Inc\BaseTypes.h)(0x50AA38B3)
+I (..\Wifi\Inc\BaseDefs.h)(0x5344D231)
+I (..\GSPI\GSPI.h)(0x5346785B)
+I (..\User\inc\flash.h)(0x53464665)
+I (..\User\inc\usart.h)(0x536B38BD)
+I (..\Wifi\Inc\WifiCfg.h)(0x538FC7D8)
+I (..\User\inc\delay.h)(0x52C3C386)
+I (..\Wifi\Inc\WifiDefs.h)(0x50AA3846)
+I (..\Wifi\WLAN\Ndis.h)(0x534CFED7)
+I (..\Wifi\WLAN\Ndisdef.h)(0x50AA386B)
+I (..\Wifi\WLAN\MrvConstant.h)(0x50AA3865)
+I (..\Wifi\WLAN\MrvStruct.h)(0x50AA3865)
+I (..\Wifi\WLAN\MrvHostCmd.h)(0x50AA415A)
+I (..\Wifi\IO\Wifi_Hw.h)(0x53451E2B)
+I (..\Wifi\IF\Wifi_If.h)(0x5344F6D5)
+I (..\Wifi\IF\Wifi_If_Gspi.h)(0x50AA3841)
+I (..\Wifi\WLAN\WlanCmd.h)(0x5344F661)
+I (..\Wifi\WLAN\WlanInit.h)(0x5344F67A)
+I (..\Wifi\WLAN\WlanPkt.h)(0x5344F698)
+I (..\Wifi\WLAN\WlanMisc.h)(0x5344F68E)
+I (..\Wifi\Api\WifiApiExport.h)(0x5344F6A4)
+I (..\Wifi\Api\WIFICommand.h)(0x5344F6BC)
+F (..\Wifi\WLAN\WlanCmd.c)(0x5344F625)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\wlancmd.o --omf_browse ..\output\wlancmd.crf --depend ..\output\wlancmd.d)
+I (..\Wifi\WLAN\WlanCmd.h)(0x5344F661)
+I (..\Wifi\Inc\Includes.h)(0x5344F613)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+I (..\Wifi\Inc\BaseTypes.h)(0x50AA38B3)
+I (..\Wifi\Inc\BaseDefs.h)(0x5344D231)
+I (..\GSPI\GSPI.h)(0x5346785B)
+I (..\User\inc\flash.h)(0x53464665)
+I (..\User\inc\usart.h)(0x536B38BD)
+I (..\Wifi\Inc\WifiCfg.h)(0x538FC7D8)
+I (..\User\inc\delay.h)(0x52C3C386)
+I (..\Wifi\Inc\WifiDefs.h)(0x50AA3846)
+I (..\Wifi\WLAN\Ndis.h)(0x534CFED7)
+I (..\Wifi\WLAN\Ndisdef.h)(0x50AA386B)
+I (..\Wifi\WLAN\MrvConstant.h)(0x50AA3865)
+I (..\Wifi\WLAN\MrvStruct.h)(0x50AA3865)
+I (..\Wifi\WLAN\MrvHostCmd.h)(0x50AA415A)
+I (..\Wifi\WLAN\WlanAdapter.h)(0x5344F5E8)
+I (..\Wifi\IO\Wifi_Hw.h)(0x53451E2B)
+I (..\Wifi\IF\Wifi_If.h)(0x5344F6D5)
+I (..\Wifi\IF\Wifi_If_Gspi.h)(0x50AA3841)
+I (..\Wifi\WLAN\WlanInit.h)(0x5344F67A)
+I (..\Wifi\WLAN\WlanPkt.h)(0x5344F698)
+I (..\Wifi\WLAN\WlanMisc.h)(0x5344F68E)
+I (..\Wifi\Api\WifiApiExport.h)(0x5344F6A4)
+I (..\Wifi\Api\WIFICommand.h)(0x5344F6BC)
+F (..\Wifi\WLAN\WlanHal.c)(0x53436227)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\wlanhal.o --omf_browse ..\output\wlanhal.crf --depend ..\output\wlanhal.d)
+I (..\Wifi\WLAN\WlanHal.h)(0x5344F66D)
+I (..\Wifi\Inc\Includes.h)(0x5344F613)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+I (..\Wifi\Inc\BaseTypes.h)(0x50AA38B3)
+I (..\Wifi\Inc\BaseDefs.h)(0x5344D231)
+I (..\GSPI\GSPI.h)(0x5346785B)
+I (..\User\inc\flash.h)(0x53464665)
+I (..\User\inc\usart.h)(0x536B38BD)
+I (..\Wifi\Inc\WifiCfg.h)(0x538FC7D8)
+I (..\User\inc\delay.h)(0x52C3C386)
+I (..\Wifi\Inc\WifiDefs.h)(0x50AA3846)
+I (..\Wifi\WLAN\Ndis.h)(0x534CFED7)
+I (..\Wifi\WLAN\Ndisdef.h)(0x50AA386B)
+I (..\Wifi\WLAN\MrvConstant.h)(0x50AA3865)
+I (..\Wifi\WLAN\MrvStruct.h)(0x50AA3865)
+I (..\Wifi\WLAN\MrvHostCmd.h)(0x50AA415A)
+I (..\Wifi\WLAN\WlanAdapter.h)(0x5344F5E8)
+I (..\Wifi\IO\Wifi_Hw.h)(0x53451E2B)
+I (..\Wifi\IF\Wifi_If.h)(0x5344F6D5)
+I (..\Wifi\IF\Wifi_If_Gspi.h)(0x50AA3841)
+I (..\Wifi\WLAN\WlanCmd.h)(0x5344F661)
+I (..\Wifi\WLAN\WlanInit.h)(0x5344F67A)
+I (..\Wifi\WLAN\WlanPkt.h)(0x5344F698)
+I (..\Wifi\WLAN\WlanMisc.h)(0x5344F68E)
+I (..\Wifi\Api\WifiApiExport.h)(0x5344F6A4)
+I (..\Wifi\Api\WIFICommand.h)(0x5344F6BC)
+F (..\Wifi\WLAN\WlanInit.c)(0x5343624F)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\wlaninit.o --omf_browse ..\output\wlaninit.crf --depend ..\output\wlaninit.d)
+I (..\Wifi\WLAN\WlanInit.h)(0x5344F67A)
+I (..\Wifi\Inc\Includes.h)(0x5344F613)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+I (..\Wifi\Inc\BaseTypes.h)(0x50AA38B3)
+I (..\Wifi\Inc\BaseDefs.h)(0x5344D231)
+I (..\GSPI\GSPI.h)(0x5346785B)
+I (..\User\inc\flash.h)(0x53464665)
+I (..\User\inc\usart.h)(0x536B38BD)
+I (..\Wifi\Inc\WifiCfg.h)(0x538FC7D8)
+I (..\User\inc\delay.h)(0x52C3C386)
+I (..\Wifi\Inc\WifiDefs.h)(0x50AA3846)
+I (..\Wifi\WLAN\Ndis.h)(0x534CFED7)
+I (..\Wifi\WLAN\Ndisdef.h)(0x50AA386B)
+I (..\Wifi\WLAN\MrvConstant.h)(0x50AA3865)
+I (..\Wifi\WLAN\MrvStruct.h)(0x50AA3865)
+I (..\Wifi\WLAN\MrvHostCmd.h)(0x50AA415A)
+I (..\Wifi\WLAN\WlanAdapter.h)(0x5344F5E8)
+I (..\Wifi\IO\Wifi_Hw.h)(0x53451E2B)
+I (..\Wifi\IF\Wifi_If.h)(0x5344F6D5)
+I (..\Wifi\IF\Wifi_If_Gspi.h)(0x50AA3841)
+I (..\Wifi\WLAN\WlanCmd.h)(0x5344F661)
+I (..\Wifi\WLAN\WlanPkt.h)(0x5344F698)
+I (..\Wifi\WLAN\WlanMisc.h)(0x5344F68E)
+I (..\Wifi\Api\WifiApiExport.h)(0x5344F6A4)
+I (..\Wifi\Api\WIFICommand.h)(0x5344F6BC)
+F (..\Wifi\WLAN\WlanMisc.c)(0x53436275)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\wlanmisc.o --omf_browse ..\output\wlanmisc.crf --depend ..\output\wlanmisc.d)
+I (..\Wifi\WLAN\WlanMisc.h)(0x5344F68E)
+I (..\Wifi\Inc\Includes.h)(0x5344F613)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+I (..\Wifi\Inc\BaseTypes.h)(0x50AA38B3)
+I (..\Wifi\Inc\BaseDefs.h)(0x5344D231)
+I (..\GSPI\GSPI.h)(0x5346785B)
+I (..\User\inc\flash.h)(0x53464665)
+I (..\User\inc\usart.h)(0x536B38BD)
+I (..\Wifi\Inc\WifiCfg.h)(0x538FC7D8)
+I (..\User\inc\delay.h)(0x52C3C386)
+I (..\Wifi\Inc\WifiDefs.h)(0x50AA3846)
+I (..\Wifi\WLAN\Ndis.h)(0x534CFED7)
+I (..\Wifi\WLAN\Ndisdef.h)(0x50AA386B)
+I (..\Wifi\WLAN\MrvConstant.h)(0x50AA3865)
+I (..\Wifi\WLAN\MrvStruct.h)(0x50AA3865)
+I (..\Wifi\WLAN\MrvHostCmd.h)(0x50AA415A)
+I (..\Wifi\WLAN\WlanAdapter.h)(0x5344F5E8)
+I (..\Wifi\IO\Wifi_Hw.h)(0x53451E2B)
+I (..\Wifi\IF\Wifi_If.h)(0x5344F6D5)
+I (..\Wifi\IF\Wifi_If_Gspi.h)(0x50AA3841)
+I (..\Wifi\WLAN\WlanCmd.h)(0x5344F661)
+I (..\Wifi\WLAN\WlanInit.h)(0x5344F67A)
+I (..\Wifi\WLAN\WlanPkt.h)(0x5344F698)
+I (..\Wifi\Api\WifiApiExport.h)(0x5344F6A4)
+I (..\Wifi\Api\WIFICommand.h)(0x5344F6BC)
+F (..\Wifi\WLAN\WlanPkt.c)(0x53718897)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\wlanpkt.o --omf_browse ..\output\wlanpkt.crf --depend ..\output\wlanpkt.d)
+I (..\Wifi\WLAN\WlanPkt.h)(0x5344F698)
+I (..\Wifi\Inc\Includes.h)(0x5344F613)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+I (..\Wifi\Inc\BaseTypes.h)(0x50AA38B3)
+I (..\Wifi\Inc\BaseDefs.h)(0x5344D231)
+I (..\GSPI\GSPI.h)(0x5346785B)
+I (..\User\inc\flash.h)(0x53464665)
+I (..\User\inc\usart.h)(0x536B38BD)
+I (..\Wifi\Inc\WifiCfg.h)(0x538FC7D8)
+I (..\User\inc\delay.h)(0x52C3C386)
+I (..\Wifi\Inc\WifiDefs.h)(0x50AA3846)
+I (..\Wifi\WLAN\Ndis.h)(0x534CFED7)
+I (..\Wifi\WLAN\Ndisdef.h)(0x50AA386B)
+I (..\Wifi\WLAN\MrvConstant.h)(0x50AA3865)
+I (..\Wifi\WLAN\MrvStruct.h)(0x50AA3865)
+I (..\Wifi\WLAN\MrvHostCmd.h)(0x50AA415A)
+I (..\Wifi\WLAN\WlanAdapter.h)(0x5344F5E8)
+I (..\Wifi\IO\Wifi_Hw.h)(0x53451E2B)
+I (..\Wifi\IF\Wifi_If.h)(0x5344F6D5)
+I (..\Wifi\IF\Wifi_If_Gspi.h)(0x50AA3841)
+I (..\Wifi\WLAN\WlanCmd.h)(0x5344F661)
+I (..\Wifi\WLAN\WlanInit.h)(0x5344F67A)
+I (..\Wifi\WLAN\WlanMisc.h)(0x5344F68E)
+I (..\Wifi\Api\WifiApiExport.h)(0x5344F6A4)
+I (..\Wifi\Api\WIFICommand.h)(0x5344F6BC)
+F (..\Wifi\Api\WifiApiExport.c)(0x5347BB45)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\wifiapiexport.o --omf_browse ..\output\wifiapiexport.crf --depend ..\output\wifiapiexport.d)
+I (..\Wifi\Api\WifiApiExport.h)(0x5344F6A4)
+I (..\Wifi\Inc\Includes.h)(0x5344F613)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+I (..\Wifi\Inc\BaseTypes.h)(0x50AA38B3)
+I (..\Wifi\Inc\BaseDefs.h)(0x5344D231)
+I (..\GSPI\GSPI.h)(0x5346785B)
+I (..\User\inc\flash.h)(0x53464665)
+I (..\User\inc\usart.h)(0x536B38BD)
+I (..\Wifi\Inc\WifiCfg.h)(0x538FC7D8)
+I (..\User\inc\delay.h)(0x52C3C386)
+I (..\Wifi\Inc\WifiDefs.h)(0x50AA3846)
+I (..\Wifi\WLAN\Ndis.h)(0x534CFED7)
+I (..\Wifi\WLAN\Ndisdef.h)(0x50AA386B)
+I (..\Wifi\WLAN\MrvConstant.h)(0x50AA3865)
+I (..\Wifi\WLAN\MrvStruct.h)(0x50AA3865)
+I (..\Wifi\WLAN\MrvHostCmd.h)(0x50AA415A)
+I (..\Wifi\WLAN\WlanAdapter.h)(0x5344F5E8)
+I (..\Wifi\IO\Wifi_Hw.h)(0x53451E2B)
+I (..\Wifi\IF\Wifi_If.h)(0x5344F6D5)
+I (..\Wifi\IF\Wifi_If_Gspi.h)(0x50AA3841)
+I (..\Wifi\WLAN\WlanCmd.h)(0x5344F661)
+I (..\Wifi\WLAN\WlanInit.h)(0x5344F67A)
+I (..\Wifi\WLAN\WlanPkt.h)(0x5344F698)
+I (..\Wifi\WLAN\WlanMisc.h)(0x5344F68E)
+I (..\Wifi\Api\WIFICommand.h)(0x5344F6BC)
+F (..\Wifi\Api\WifiApiPrivate.c)(0x53435245)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\wifiapiprivate.o --omf_browse ..\output\wifiapiprivate.crf --depend ..\output\wifiapiprivate.d)
+I (..\Wifi\Api\WifiApiPrivate.h)(0x5344F6B1)
+I (..\Wifi\Inc\Includes.h)(0x5344F613)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+I (..\Wifi\Inc\BaseTypes.h)(0x50AA38B3)
+I (..\Wifi\Inc\BaseDefs.h)(0x5344D231)
+I (..\GSPI\GSPI.h)(0x5346785B)
+I (..\User\inc\flash.h)(0x53464665)
+I (..\User\inc\usart.h)(0x536B38BD)
+I (..\Wifi\Inc\WifiCfg.h)(0x538FC7D8)
+I (..\User\inc\delay.h)(0x52C3C386)
+I (..\Wifi\Inc\WifiDefs.h)(0x50AA3846)
+I (..\Wifi\WLAN\Ndis.h)(0x534CFED7)
+I (..\Wifi\WLAN\Ndisdef.h)(0x50AA386B)
+I (..\Wifi\WLAN\MrvConstant.h)(0x50AA3865)
+I (..\Wifi\WLAN\MrvStruct.h)(0x50AA3865)
+I (..\Wifi\WLAN\MrvHostCmd.h)(0x50AA415A)
+I (..\Wifi\WLAN\WlanAdapter.h)(0x5344F5E8)
+I (..\Wifi\IO\Wifi_Hw.h)(0x53451E2B)
+I (..\Wifi\IF\Wifi_If.h)(0x5344F6D5)
+I (..\Wifi\IF\Wifi_If_Gspi.h)(0x50AA3841)
+I (..\Wifi\WLAN\WlanCmd.h)(0x5344F661)
+I (..\Wifi\WLAN\WlanInit.h)(0x5344F67A)
+I (..\Wifi\WLAN\WlanPkt.h)(0x5344F698)
+I (..\Wifi\WLAN\WlanMisc.h)(0x5344F68E)
+I (..\Wifi\Api\WifiApiExport.h)(0x5344F6A4)
+I (..\Wifi\Api\WIFICommand.h)(0x5344F6BC)
+F (..\Wifi\Api\WiFiCommand.c)(0x53464989)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\wificommand.o --omf_browse ..\output\wificommand.crf --depend ..\output\wificommand.d)
+I (..\Wifi\Api\WiFiCommand.h)(0x5344F6BC)
+I (..\Wifi\Inc\Includes.h)(0x5344F613)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+I (..\Wifi\Inc\BaseTypes.h)(0x50AA38B3)
+I (..\Wifi\Inc\BaseDefs.h)(0x5344D231)
+I (..\GSPI\GSPI.h)(0x5346785B)
+I (..\User\inc\flash.h)(0x53464665)
+I (..\User\inc\usart.h)(0x536B38BD)
+I (..\Wifi\Inc\WifiCfg.h)(0x538FC7D8)
+I (..\User\inc\delay.h)(0x52C3C386)
+I (..\Wifi\Inc\WifiDefs.h)(0x50AA3846)
+I (..\Wifi\WLAN\Ndis.h)(0x534CFED7)
+I (..\Wifi\WLAN\Ndisdef.h)(0x50AA386B)
+I (..\Wifi\WLAN\MrvConstant.h)(0x50AA3865)
+I (..\Wifi\WLAN\MrvStruct.h)(0x50AA3865)
+I (..\Wifi\WLAN\MrvHostCmd.h)(0x50AA415A)
+I (..\Wifi\WLAN\WlanAdapter.h)(0x5344F5E8)
+I (..\Wifi\IO\Wifi_Hw.h)(0x53451E2B)
+I (..\Wifi\IF\Wifi_If.h)(0x5344F6D5)
+I (..\Wifi\IF\Wifi_If_Gspi.h)(0x50AA3841)
+I (..\Wifi\WLAN\WlanCmd.h)(0x5344F661)
+I (..\Wifi\WLAN\WlanInit.h)(0x5344F67A)
+I (..\Wifi\WLAN\WlanPkt.h)(0x5344F698)
+I (..\Wifi\WLAN\WlanMisc.h)(0x5344F68E)
+I (..\Wifi\Api\WifiApiExport.h)(0x5344F6A4)
+F (..\Wifi\IF\Wifi_If.c)(0x53465353)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\wifi_if.o --omf_browse ..\output\wifi_if.crf --depend ..\output\wifi_if.d)
+I (..\Wifi\IF\Wifi_If.h)(0x5344F6D5)
+I (..\Wifi\IF\Wifi_If_Gspi.h)(0x50AA3841)
+I (..\Wifi\Inc\Includes.h)(0x5344F613)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+I (..\Wifi\Inc\BaseTypes.h)(0x50AA38B3)
+I (..\Wifi\Inc\BaseDefs.h)(0x5344D231)
+I (..\GSPI\GSPI.h)(0x5346785B)
+I (..\User\inc\flash.h)(0x53464665)
+I (..\User\inc\usart.h)(0x536B38BD)
+I (..\Wifi\Inc\WifiCfg.h)(0x538FC7D8)
+I (..\User\inc\delay.h)(0x52C3C386)
+I (..\Wifi\Inc\WifiDefs.h)(0x50AA3846)
+I (..\Wifi\WLAN\Ndis.h)(0x534CFED7)
+I (..\Wifi\WLAN\Ndisdef.h)(0x50AA386B)
+I (..\Wifi\WLAN\MrvConstant.h)(0x50AA3865)
+I (..\Wifi\WLAN\MrvStruct.h)(0x50AA3865)
+I (..\Wifi\WLAN\MrvHostCmd.h)(0x50AA415A)
+I (..\Wifi\WLAN\WlanAdapter.h)(0x5344F5E8)
+I (..\Wifi\IO\Wifi_Hw.h)(0x53451E2B)
+I (..\Wifi\WLAN\WlanCmd.h)(0x5344F661)
+I (..\Wifi\WLAN\WlanInit.h)(0x5344F67A)
+I (..\Wifi\WLAN\WlanPkt.h)(0x5344F698)
+I (..\Wifi\WLAN\WlanMisc.h)(0x5344F68E)
+I (..\Wifi\Api\WifiApiExport.h)(0x5344F6A4)
+I (..\Wifi\Api\WIFICommand.h)(0x5344F6BC)
+I (..\Wifi\IF\Firmware.h)(0x50CE7448)
+I (..\Wifi\IF\gspi8385.h)(0x509893F7)
+I (..\Wifi\IF\helper8385.h)(0x5346514E)
+F (..\Wifi\IO\Wifi_Hw.c)(0x534D0D89)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\wifi_hw.o --omf_browse ..\output\wifi_hw.crf --depend ..\output\wifi_hw.d)
+I (..\Wifi\IO\Wifi_Hw.h)(0x53451E2B)
+I (..\Wifi\Inc\Includes.h)(0x5344F613)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+I (..\Wifi\Inc\BaseTypes.h)(0x50AA38B3)
+I (..\Wifi\Inc\BaseDefs.h)(0x5344D231)
+I (..\GSPI\GSPI.h)(0x5346785B)
+I (..\User\inc\flash.h)(0x53464665)
+I (..\User\inc\usart.h)(0x536B38BD)
+I (..\Wifi\Inc\WifiCfg.h)(0x538FC7D8)
+I (..\User\inc\delay.h)(0x52C3C386)
+I (..\Wifi\Inc\WifiDefs.h)(0x50AA3846)
+I (..\Wifi\WLAN\Ndis.h)(0x534CFED7)
+I (..\Wifi\WLAN\Ndisdef.h)(0x50AA386B)
+I (..\Wifi\WLAN\MrvConstant.h)(0x50AA3865)
+I (..\Wifi\WLAN\MrvStruct.h)(0x50AA3865)
+I (..\Wifi\WLAN\MrvHostCmd.h)(0x50AA415A)
+I (..\Wifi\WLAN\WlanAdapter.h)(0x5344F5E8)
+I (..\Wifi\IF\Wifi_If.h)(0x5344F6D5)
+I (..\Wifi\IF\Wifi_If_Gspi.h)(0x50AA3841)
+I (..\Wifi\WLAN\WlanCmd.h)(0x5344F661)
+I (..\Wifi\WLAN\WlanInit.h)(0x5344F67A)
+I (..\Wifi\WLAN\WlanPkt.h)(0x5344F698)
+I (..\Wifi\WLAN\WlanMisc.h)(0x5344F68E)
+I (..\Wifi\Api\WifiApiExport.h)(0x5344F6A4)
+I (..\Wifi\Api\WIFICommand.h)(0x5344F6BC)
+F (..\uip-1-0\uip\psock.c)(0x51528438)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\psock.o --omf_browse ..\output\psock.crf --depend ..\output\psock.d)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (..\uip-1-0\uip\uipopt.h)(0x53719EE6)
+I (..\uip-1-0\unix\uip-conf.h)(0x536F67E3)
+I (D:\Program Files\Keil\ARM\ARMCC\include\inttypes.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\uip-1-0\apps\udpclient\udp_client.h)(0x536B0730)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+I (..\uip-1-0\uip\psock.h)(0x51528438)
+I (..\uip-1-0\uip\pt.h)(0x51528438)
+I (..\uip-1-0\uip\lc.h)(0x51528438)
+I (..\uip-1-0\uip\lc-switch.h)(0x51528438)
+I (..\uip-1-0\uip\uip.h)(0x538D7D5F)
+F (..\uip-1-0\uip\timer.c)(0x51528438)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\timer.o --omf_browse ..\output\timer.crf --depend ..\output\timer.d)
+I (..\uip-1-0\uip\clock.h)(0x51528438)
+I (..\uip-1-0\unix\clock-arch.h)(0x534CBF55)
+I (..\uip-1-0\uip\timer.h)(0x51528438)
+F (..\uip-1-0\uip\uip.c)(0x538D7D52)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\uip.o --omf_browse ..\output\uip.crf --depend ..\output\uip.d)
+I (..\uip-1-0\uip\uip.h)(0x538D7D5F)
+I (..\uip-1-0\uip\uipopt.h)(0x53719EE6)
+I (..\uip-1-0\unix\uip-conf.h)(0x536F67E3)
+I (D:\Program Files\Keil\ARM\ARMCC\include\inttypes.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\uip-1-0\apps\udpclient\udp_client.h)(0x536B0730)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+I (..\uip-1-0\uip\uip_arch.h)(0x51528438)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+F (..\uip-1-0\uip\uip_arp.c)(0x51528438)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\uip_arp.o --omf_browse ..\output\uip_arp.crf --depend ..\output\uip_arp.d)
+I (..\uip-1-0\uip\uip_arp.h)(0x51528438)
+I (..\uip-1-0\uip\uip.h)(0x538D7D5F)
+I (..\uip-1-0\uip\uipopt.h)(0x53719EE6)
+I (..\uip-1-0\unix\uip-conf.h)(0x536F67E3)
+I (D:\Program Files\Keil\ARM\ARMCC\include\inttypes.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\uip-1-0\apps\udpclient\udp_client.h)(0x536B0730)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+F (..\uip-1-0\uip\uip-fw.c)(0x51528438)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\uip-fw.o --omf_browse ..\output\uip-fw.crf --depend ..\output\uip-fw.d)
+I (..\uip-1-0\uip\uip.h)(0x538D7D5F)
+I (..\uip-1-0\uip\uipopt.h)(0x53719EE6)
+I (..\uip-1-0\unix\uip-conf.h)(0x536F67E3)
+I (D:\Program Files\Keil\ARM\ARMCC\include\inttypes.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\uip-1-0\apps\udpclient\udp_client.h)(0x536B0730)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+I (..\uip-1-0\uip\uip_arch.h)(0x51528438)
+I (..\uip-1-0\uip\uip-fw.h)(0x51528438)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+F (..\uip-1-0\uip\uiplib.c)(0x51528438)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\uiplib.o --omf_browse ..\output\uiplib.crf --depend ..\output\uiplib.d)
+I (..\uip-1-0\uip\uip.h)(0x538D7D5F)
+I (..\uip-1-0\uip\uipopt.h)(0x53719EE6)
+I (..\uip-1-0\unix\uip-conf.h)(0x536F67E3)
+I (D:\Program Files\Keil\ARM\ARMCC\include\inttypes.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\uip-1-0\apps\udpclient\udp_client.h)(0x536B0730)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+I (..\uip-1-0\uip\uiplib.h)(0x51528438)
+F (..\uip-1-0\uip\uip-neighbor.c)(0x51528438)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\uip-neighbor.o --omf_browse ..\output\uip-neighbor.crf --depend ..\output\uip-neighbor.d)
+I (..\uip-1-0\uip\uip-neighbor.h)(0x51528438)
+I (..\uip-1-0\uip\uip.h)(0x538D7D5F)
+I (..\uip-1-0\uip\uipopt.h)(0x53719EE6)
+I (..\uip-1-0\unix\uip-conf.h)(0x536F67E3)
+I (D:\Program Files\Keil\ARM\ARMCC\include\inttypes.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\uip-1-0\apps\udpclient\udp_client.h)(0x536B0730)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+F (..\uip-1-0\uip\uip-split.c)(0x534CF414)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\uip-split.o --omf_browse ..\output\uip-split.crf --depend ..\output\uip-split.d)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (..\uip-1-0\uip\uip-split.h)(0x51528438)
+I (..\uip-1-0\uip\uip.h)(0x538D7D5F)
+I (..\uip-1-0\uip\uipopt.h)(0x53719EE6)
+I (..\uip-1-0\unix\uip-conf.h)(0x536F67E3)
+I (D:\Program Files\Keil\ARM\ARMCC\include\inttypes.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\uip-1-0\apps\udpclient\udp_client.h)(0x536B0730)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+I (..\uip-1-0\uip\uip-fw.h)(0x51528438)
+I (..\uip-1-0\uip\uip_arch.h)(0x51528438)
+F (..\uip-1-0\unix\clock-arch.c)(0x534CC0C3)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\clock-arch.o --omf_browse ..\output\clock-arch.crf --depend ..\output\clock-arch.d)
+I (..\uip-1-0\unix\clock-arch.h)(0x534CBF55)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+F (..\uip-1-0\unix\tapdev.c)(0x536B3639)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\tapdev.o --omf_browse ..\output\tapdev.crf --depend ..\output\tapdev.d)
+I (..\uip-1-0\unix\tapdev.h)(0x534CC4E5)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+I (..\uip-1-0\uip\uip.h)(0x538D7D5F)
+I (..\uip-1-0\uip\uipopt.h)(0x53719EE6)
+I (..\uip-1-0\unix\uip-conf.h)(0x536F67E3)
+I (D:\Program Files\Keil\ARM\ARMCC\include\inttypes.h)(0x51C7B744)
+I (..\uip-1-0\apps\udpclient\udp_client.h)(0x536B0730)
+I (..\User\inc\timerx.h)(0x534CBD76)
+I (..\Wifi\WLAN\WlanAdapter.h)(0x5344F5E8)
+I (..\Wifi\Inc\Includes.h)(0x5344F613)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
+I (..\Wifi\Inc\BaseTypes.h)(0x50AA38B3)
+I (..\Wifi\Inc\BaseDefs.h)(0x5344D231)
+I (..\GSPI\GSPI.h)(0x5346785B)
+I (..\User\inc\flash.h)(0x53464665)
+I (..\User\inc\usart.h)(0x536B38BD)
+I (..\Wifi\Inc\WifiCfg.h)(0x538FC7D8)
+I (..\User\inc\delay.h)(0x52C3C386)
+I (..\Wifi\Inc\WifiDefs.h)(0x50AA3846)
+I (..\Wifi\WLAN\Ndis.h)(0x534CFED7)
+I (..\Wifi\WLAN\Ndisdef.h)(0x50AA386B)
+I (..\Wifi\WLAN\MrvConstant.h)(0x50AA3865)
+I (..\Wifi\WLAN\MrvStruct.h)(0x50AA3865)
+I (..\Wifi\WLAN\MrvHostCmd.h)(0x50AA415A)
+I (..\Wifi\IO\Wifi_Hw.h)(0x53451E2B)
+I (..\Wifi\IF\Wifi_If.h)(0x5344F6D5)
+I (..\Wifi\IF\Wifi_If_Gspi.h)(0x50AA3841)
+I (..\Wifi\WLAN\WlanCmd.h)(0x5344F661)
+I (..\Wifi\WLAN\WlanInit.h)(0x5344F67A)
+I (..\Wifi\WLAN\WlanPkt.h)(0x5344F698)
+I (..\Wifi\WLAN\WlanMisc.h)(0x5344F68E)
+I (..\Wifi\Api\WifiApiExport.h)(0x5344F6A4)
+I (..\Wifi\Api\WIFICommand.h)(0x5344F6BC)
+F (..\uip-1-0\apps\udpclient\uIP_App.c)(0x538D8782)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\uip_app.o --omf_browse ..\output\uip_app.crf --depend ..\output\uip_app.d)
+I (..\uip-1-0\apps\udpclient\uIP_App.h)(0x536F3B54)
+I (..\uip-1-0\uip\uip.h)(0x538D7D5F)
+I (..\uip-1-0\uip\uipopt.h)(0x53719EE6)
+I (..\uip-1-0\unix\uip-conf.h)(0x536F67E3)
+I (D:\Program Files\Keil\ARM\ARMCC\include\inttypes.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\uip-1-0\apps\udpclient\udp_client.h)(0x536B0730)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+I (..\uip-1-0\uip\uip_arp.h)(0x51528438)
+I (..\uip-1-0\unix\tapdev.h)(0x534CC4E5)
+I (..\uip-1-0\unix\clock-arch.h)(0x534CBF55)
+I (..\uip-1-0\apps\dhcps\dhcps.h)(0x537DB4D4)
+I (..\uip-1-0\uip\timer.h)(0x51528438)
+I (..\uip-1-0\uip\clock.h)(0x51528438)
+F (..\uip-1-0\apps\udpclient\udp_client.c)(0x538FD84B)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\udp_client.o --omf_browse ..\output\udp_client.crf --depend ..\output\udp_client.d)
+I (..\uip-1-0\uip\uip.h)(0x538D7D5F)
+I (..\uip-1-0\uip\uipopt.h)(0x53719EE6)
+I (..\uip-1-0\unix\uip-conf.h)(0x536F67E3)
+I (D:\Program Files\Keil\ARM\ARMCC\include\inttypes.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\uip-1-0\apps\udpclient\udp_client.h)(0x536B0730)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+I (..\uip-1-0\apps\dhcps\dhcps.h)(0x537DB4D4)
+I (..\User\inc\usart.h)(0x536B38BD)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
+I (..\Wifi\Inc\WifiCfg.h)(0x538FC7D8)
+I (..\User\inc\dcmi_ov2640.h)(0x53719F07)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+F (..\uip-1-0\apps\dhcps\dhcps.c)(0x538D8607)(-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\udpclient -I..\uip-1-0\apps\dhcps-I "D:\Program Files\Keil\ARM\RV31\INC"-I "D:\Program Files\Keil\ARM\CMSIS\Include"-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX-o ..\output\dhcps.o --omf_browse ..\output\dhcps.crf --depend ..\output\dhcps.d)
+I (..\uip-1-0\apps\dhcps\dhcps.h)(0x537DB4D4)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x533A3A9C)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (..\User\inc\stm32f4xx_conf.h)(0x534D0CDB)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x527D5139)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+I (..\uip-1-0\uip\uip.h)(0x538D7D5F)
+I (..\uip-1-0\uip\uipopt.h)(0x53719EE6)
+I (..\uip-1-0\unix\uip-conf.h)(0x536F67E3)
+I (D:\Program Files\Keil\ARM\ARMCC\include\inttypes.h)(0x51C7B744)
+I (..\uip-1-0\apps\udpclient\udp_client.h)(0x536B0730)
+I (..\Wifi\Inc\includes.h)(0x5344F613)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
+I (..\Wifi\Inc\BaseTypes.h)(0x50AA38B3)
+I (..\Wifi\Inc\BaseDefs.h)(0x5344D231)
+I (..\GSPI\GSPI.h)(0x5346785B)
+I (..\User\inc\flash.h)(0x53464665)
+I (..\User\inc\usart.h)(0x536B38BD)
+I (..\Wifi\Inc\WifiCfg.h)(0x538FC7D8)
+I (..\User\inc\delay.h)(0x52C3C386)
+I (..\Wifi\Inc\WifiDefs.h)(0x50AA3846)
+I (..\Wifi\WLAN\Ndis.h)(0x534CFED7)
+I (..\Wifi\WLAN\Ndisdef.h)(0x50AA386B)
+I (..\Wifi\WLAN\MrvConstant.h)(0x50AA3865)
+I (..\Wifi\WLAN\MrvStruct.h)(0x50AA3865)
+I (..\Wifi\WLAN\MrvHostCmd.h)(0x50AA415A)
+I (..\Wifi\WLAN\WlanAdapter.h)(0x5344F5E8)
+I (..\Wifi\IO\Wifi_Hw.h)(0x53451E2B)
+I (..\Wifi\IF\Wifi_If.h)(0x5344F6D5)
+I (..\Wifi\IF\Wifi_If_Gspi.h)(0x50AA3841)
+I (..\Wifi\WLAN\WlanCmd.h)(0x5344F661)
+I (..\Wifi\WLAN\WlanInit.h)(0x5344F67A)
+I (..\Wifi\WLAN\WlanPkt.h)(0x5344F698)
+I (..\Wifi\WLAN\WlanMisc.h)(0x5344F68E)
+I (..\Wifi\Api\WifiApiExport.h)(0x5344F6A4)
+I (..\Wifi\Api\WIFICommand.h)(0x5344F6BC)

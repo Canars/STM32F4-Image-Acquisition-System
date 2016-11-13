@@ -1,0 +1,6 @@
+-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\CMSIS\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\User\inc -I..\GSPI -I..\Wifi\Inc -I..\Wifi\WLAN -I..\Wifi\Api -I..\Wifi\IF -I..\Wifi\IO -I..\uip-1-0\uip -I..\uip-1-0\unix -I..\uip-1-0\apps\hello-world
+-I "D:\Program Files\Keil\ARM\RV31\INC"
+-I "D:\Program Files\Keil\ARM\CMSIS\Include"
+-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F4xx"
+-DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -DSTM32F40XX
+-o ..\output\hello-world.o --omf_browse ..\output\hello-world.crf --depend ..\output\hello-world.d "..\uip-1-0\apps\hello-world\hello-world.c"

@@ -1,0 +1,32 @@
+..\output\flash.o: ..\User\src\flash.c
+..\output\flash.o: ..\User\inc\flash.h
+..\output\flash.o: ..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+..\output\flash.o: ..\Libraries\CMSIS\Include\core_cm4.h
+..\output\flash.o: D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\output\flash.o: ..\Libraries\CMSIS\Include\core_cmInstr.h
+..\output\flash.o: ..\Libraries\CMSIS\Include\core_cmFunc.h
+..\output\flash.o: ..\Libraries\CMSIS\Include\core_cm4_simd.h
+..\output\flash.o: ..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h
+..\output\flash.o: ..\User\inc\stm32f4xx_conf.h
+..\output\flash.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h
+..\output\flash.o: ..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+..\output\flash.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h
+..\output\flash.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h
+..\output\flash.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h
+..\output\flash.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h
+..\output\flash.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h
+..\output\flash.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h
+..\output\flash.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h
+..\output\flash.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h
+..\output\flash.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h
+..\output\flash.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h
+..\output\flash.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h
+..\output\flash.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h
+..\output\flash.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h
+..\output\flash.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h
+..\output\flash.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h
+..\output\flash.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h
+..\output\flash.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h
+..\output\flash.o: ..\Wifi\Inc\BaseTypes.h
+..\output\flash.o: ..\Wifi\Inc\BaseDefs.h
+..\output\flash.o: D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdlib.h

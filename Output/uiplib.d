@@ -1,0 +1,34 @@
+..\output\uiplib.o: ..\uip-1-0\uip\uiplib.c
+..\output\uiplib.o: ..\uip-1-0\uip\uip.h
+..\output\uiplib.o: ..\uip-1-0\uip\uipopt.h
+..\output\uiplib.o: ..\uip-1-0\unix\uip-conf.h
+..\output\uiplib.o: D:\Program Files\Keil\ARM\ARMCC\bin\..\include\inttypes.h
+..\output\uiplib.o: D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\output\uiplib.o: ..\uip-1-0\apps\udpclient\udp_client.h
+..\output\uiplib.o: ..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+..\output\uiplib.o: ..\Libraries\CMSIS\Include\core_cm4.h
+..\output\uiplib.o: ..\Libraries\CMSIS\Include\core_cmInstr.h
+..\output\uiplib.o: ..\Libraries\CMSIS\Include\core_cmFunc.h
+..\output\uiplib.o: ..\Libraries\CMSIS\Include\core_cm4_simd.h
+..\output\uiplib.o: ..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h
+..\output\uiplib.o: ..\User\inc\stm32f4xx_conf.h
+..\output\uiplib.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h
+..\output\uiplib.o: ..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+..\output\uiplib.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h
+..\output\uiplib.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h
+..\output\uiplib.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h
+..\output\uiplib.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h
+..\output\uiplib.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h
+..\output\uiplib.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h
+..\output\uiplib.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h
+..\output\uiplib.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h
+..\output\uiplib.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h
+..\output\uiplib.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h
+..\output\uiplib.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h
+..\output\uiplib.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h
+..\output\uiplib.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h
+..\output\uiplib.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h
+..\output\uiplib.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h
+..\output\uiplib.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h
+..\output\uiplib.o: ..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h
+..\output\uiplib.o: ..\uip-1-0\uip\uiplib.h
